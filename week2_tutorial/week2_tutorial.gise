@@ -135,8 +135,8 @@
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="tutorial1_test_beh.prj"/>
       <outfile xil_pn:name="tutorial1_test_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
@@ -204,20 +204,22 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1728848938" xil_pn:in_ck="1667552037091482428" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="649673588853502279" xil_pn:start_ts="1728848935">
+    <transform xil_pn:end_ts="1729108272" xil_pn:in_ck="1667552037091482428" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="649673588853502279" xil_pn:start_ts="1729108270">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="tutorial1.bld"/>
       <outfile xil_pn:name="tutorial1.ngd"/>
       <outfile xil_pn:name="tutorial1_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1728848942" xil_pn:in_ck="1367673809411331293" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="113730145005983477" xil_pn:start_ts="1728848938">
+    <transform xil_pn:end_ts="1729108276" xil_pn:in_ck="1367673809411331293" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="113730145005983477" xil_pn:start_ts="1729108272">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="tutorial1.pcf"/>
       <outfile xil_pn:name="tutorial1_map.map"/>
@@ -228,7 +230,7 @@
       <outfile xil_pn:name="tutorial1_summary.xml"/>
       <outfile xil_pn:name="tutorial1_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1728848947" xil_pn:in_ck="-5378612753193958762" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3129755442398015208" xil_pn:start_ts="1728848942">
+    <transform xil_pn:end_ts="1729108280" xil_pn:in_ck="-5378612753193958762" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3129755442398015208" xil_pn:start_ts="1729108276">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
@@ -243,7 +245,7 @@
       <outfile xil_pn:name="tutorial1_pad.txt"/>
       <outfile xil_pn:name="tutorial1_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1728848953" xil_pn:in_ck="-3342594842015587960" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="2969983391363831627" xil_pn:start_ts="1728848947">
+    <transform xil_pn:end_ts="1729108284" xil_pn:in_ck="-3342594842015587960" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="2969983391363831627" xil_pn:start_ts="1729108280">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
@@ -264,9 +266,11 @@
       <status xil_pn:value="InputChanged"/>
     </transform>
     <transform xil_pn:end_ts="1728848947" xil_pn:in_ck="4058111715772177881" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1728848946">
-      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="AbortedRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="tutorial1.twr"/>
       <outfile xil_pn:name="tutorial1.twx"/>

@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-localhost.localdomain::  Sun Oct 13 19:49:03 2024
+localhost.localdomain::  Wed Oct 16 19:51:17 2024
 
 par -w -intstyle ise -ol high -t 1 tutorial1_map.ncd tutorial1.ncd
 tutorial1.pcf 
@@ -131,7 +131,7 @@ Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 2
 Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
 
 Total REAL time to Router completion: 2 secs 
-Total CPU time to Router completion: 2 secs 
+Total CPU time to Router completion: 3 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -187,7 +187,7 @@ Generating Pad Report.
 All signals are completely routed.
 
 Total REAL time to PAR completion: 2 secs 
-Total CPU time to PAR completion: 2 secs 
+Total CPU time to PAR completion: 3 secs 
 
 Peak Memory Usage:  651 MB
 

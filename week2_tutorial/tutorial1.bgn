@@ -5,7 +5,7 @@ Loading device for application Rf_Device from file '3s250e.nph' in environment
    "tutorial1" is an NCD, version 3.2, device xc3s250e, package cp132, speed -5
 Opened constraints file tutorial1.pcf.
 
-Sun Oct 13 19:49:08 2024
+Wed Oct 16 19:51:21 2024
 
 /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g ConfigRate:1 -g ProgPin:PullUp -g DonePin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g DCMShutdown:Disable -g StartUpClk:JtagClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:Yes -g DriveDone:No tutorial1.ncd 
 

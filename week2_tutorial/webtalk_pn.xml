@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Sun Oct 13 19:49:02 2024">
+<application name="pn" timeStamp="Wed Oct 16 19:51:16 2024">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="70494BFFBC7EB0700659CE78092743AB" type="project"/>
-<property name="ProjectIteration" value="5" type="project"/>
+<property name="ProjectIteration" value="6" type="project"/>
 <property name="ProjectFile" value="/mnt/hgfs/shared/week2_tutorial/week2_tutorial.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2024-10-12T15:22:31" type="project"/>
 </section>
@@ -27,7 +27,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_VHDLSourceAnalysisStandard" value="VHDL-200X" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2024-10-12T15:22:31" type="design"/>
 <property name="PROP_intWbtProjectID" value="70494BFFBC7EB0700659CE78092743AB" type="design"/>
-<property name="PROP_intWbtProjectIteration" value="5" type="process"/>
+<property name="PROP_intWbtProjectIteration" value="6" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
 <property name="PROP_lockPinsUcfFile" value="changed" type="process"/>

@@ -3,3 +3,9 @@ xst -intstyle ise -ifn "/mnt/hgfs/shared/week2_verilog/tutorial1.xst" -ofn "/mnt
 xst -intstyle ise -ifn "/mnt/hgfs/shared/week2_verilog/tutorial1.xst" -ofn "/mnt/hgfs/shared/week2_verilog/tutorial1.syr" 
 xst -intstyle ise -ifn "/mnt/hgfs/shared/week2_verilog/tutorial1.xst" -ofn "/mnt/hgfs/shared/week2_verilog/tutorial1.syr" 
 xst -intstyle ise -ifn "/mnt/hgfs/shared/week2_verilog/tutorial1.xst" -ofn "/mnt/hgfs/shared/week2_verilog/tutorial1.syr" 
+xst -intstyle ise -ifn "/mnt/hgfs/shared/week2_verilog/tutorial1.xst" -ofn "/mnt/hgfs/shared/week2_verilog/tutorial1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-cp132-5 tutorial1.ngc tutorial1.ngd  
+map -intstyle ise -p xc3s250e-cp132-5 -cm area -ir off -pr off -c 100 -o tutorial1_map.ncd tutorial1.ngd tutorial1.pcf 
+par -w -intstyle ise -ol high -t 1 tutorial1_map.ncd tutorial1.ncd tutorial1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tutorial1.twx tutorial1.ncd -o tutorial1.twr tutorial1.pcf 
+bitgen -intstyle ise -f tutorial1.ut tutorial1.ncd 

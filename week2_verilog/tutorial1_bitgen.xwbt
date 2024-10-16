@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/mnt/hgfs/shared/week2_verilog/tutorial1.ncd
+OUTFILE=/mnt/hgfs/shared/week2_verilog/tutorial1.bit
+FAMILY=Spartan3E
+PART=xc3s250e-5cp132
+WORKINGDIR=/mnt/hgfs/shared/week2_verilog
+LICENSE=WebPack
+USER_INFO=212619868_0_0_230

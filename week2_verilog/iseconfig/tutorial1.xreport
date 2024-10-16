@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2024-10-16T18:40:42</DateModified>
+  <DateModified>2024-10-16T19:48:49</DateModified>
   <ModuleName>tutorial1</ModuleName>
   <SummaryTimeStamp>2024-10-16T18:40:41</SummaryTimeStamp>
   <SavedFilePath>/mnt/hgfs/shared/week2_verilog/iseconfig/tutorial1.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/mnt/hgfs/shared/week2_verilog</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/mnt/hgfs/shared/week2_verilog/</ImplementationReportsDirectory>
   <DateInitialized>2024-10-16T18:36:17</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
