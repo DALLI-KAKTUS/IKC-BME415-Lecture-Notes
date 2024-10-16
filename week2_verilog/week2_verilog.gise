@@ -184,6 +184,7 @@
     <transform xil_pn:end_ts="1729108142" xil_pn:in_ck="-3342594842015587829" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-716401386444103631" xil_pn:start_ts="1729108138">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="tutorial1.bld"/>
@@ -193,6 +194,7 @@
     <transform xil_pn:end_ts="1729108146" xil_pn:in_ck="-3342594842015587828" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="113730145005983477" xil_pn:start_ts="1729108142">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="tutorial1.pcf"/>
       <outfile xil_pn:name="tutorial1_map.map"/>
@@ -206,6 +208,7 @@
     <transform xil_pn:end_ts="1729108152" xil_pn:in_ck="4309851711826728741" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3129755442398015208" xil_pn:start_ts="1729108146">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="tutorial1.ncd"/>
       <outfile xil_pn:name="tutorial1.pad"/>
@@ -220,6 +223,7 @@
     <transform xil_pn:end_ts="1729108156" xil_pn:in_ck="-3342594842015587960" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1729108152">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="tutorial1.bgn"/>
       <outfile xil_pn:name="tutorial1.bit"/>
@@ -232,6 +236,7 @@
     <transform xil_pn:end_ts="1729108152" xil_pn:in_ck="-3342594842015587960" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1729108151">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="tutorial1.twr"/>
       <outfile xil_pn:name="tutorial1.twx"/>
