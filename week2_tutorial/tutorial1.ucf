@@ -1,0 +1,12 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "counterValue[2]" LOC = P7;
+NET "counterValue[1]" LOC = M11;
+NET "counterValue[0]" LOC = M5;
+NET "enable" LOC = P11;
+NET "reset" LOC = G12;
+
+# PlanAhead Generated physical constraints 
+
+NET "clock" LOC = C8;

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/mnt/hgfs/shared/week2_verilog/tutorial1.xst" -ofn "/mnt/hgfs/shared/week2_verilog/tutorial1.syr" 
+xst -intstyle ise -ifn "/mnt/hgfs/shared/week2_verilog/tutorial1.xst" -ofn "/mnt/hgfs/shared/week2_verilog/tutorial1.syr" 
+xst -intstyle ise -ifn "/mnt/hgfs/shared/week2_verilog/tutorial1.xst" -ofn "/mnt/hgfs/shared/week2_verilog/tutorial1.syr" 
+xst -intstyle ise -ifn "/mnt/hgfs/shared/week2_verilog/tutorial1.xst" -ofn "/mnt/hgfs/shared/week2_verilog/tutorial1.syr" 
+xst -intstyle ise -ifn "/mnt/hgfs/shared/week2_verilog/tutorial1.xst" -ofn "/mnt/hgfs/shared/week2_verilog/tutorial1.syr" 

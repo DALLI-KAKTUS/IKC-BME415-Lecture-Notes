@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Oct 13 19:49:01 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "enable" LOCATE = SITE "P11" LEVEL 1;
+COMP "counterValue<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "counterValue<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "counterValue<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "clock" LOCATE = SITE "C8" LEVEL 1;
+COMP "reset" LOCATE = SITE "G12" LEVEL 1;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

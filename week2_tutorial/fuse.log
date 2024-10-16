@@ -1,0 +1,23 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /mnt/hgfs/shared/week2_tutorial/tutorial1_test_isim_beh.exe -prj /mnt/hgfs/shared/week2_tutorial/tutorial1_test_beh.prj work.tutorial1_test 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/mnt/hgfs/shared/week2_tutorial/tutorial1.vhd" into library work
+Parsing VHDL file "/mnt/hgfs/shared/week2_tutorial/tutorial1_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96824 KB
+Fuse CPU Usage: 830 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity tutorial1 [tutorial1_default]
+Compiling architecture behavior of entity tutorial1_test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 VHDL Units
+Built simulation executable /mnt/hgfs/shared/week2_tutorial/tutorial1_test_isim_beh.exe
+Fuse Memory Usage: 666504 KB
+Fuse CPU Usage: 900 ms
+GCC CPU Usage: 1070 ms

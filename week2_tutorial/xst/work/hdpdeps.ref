@@ -1,0 +1,6 @@
+V3 3
+FL /mnt/hgfs/shared/week2_tutorial/tutorial1.vhd 2024/10/13.18:14:35 P.20131013
+EN work/tutorial1 1728848905 FL /mnt/hgfs/shared/week2_tutorial/tutorial1.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/tutorial1/Behavioral 1728848906 \
+      FL /mnt/hgfs/shared/week2_tutorial/tutorial1.vhd EN work/tutorial1 1728848905
