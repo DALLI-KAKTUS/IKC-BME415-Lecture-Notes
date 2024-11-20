@@ -1,0 +1,29 @@
+
+
+NET "clk_main" LOC = B8;
+NET "dir" LOC = P11;
+NET "rst" LOC = G12;
+NET "digit_7seg_main[0]" LOC = L14;
+NET "digit_7seg_main[1]" LOC = H12;
+NET "digit_7seg_main[2]" LOC = N14;
+NET "digit_7seg_main[3]" LOC = N11;
+NET "digit_7seg_main[4]" LOC = P12;
+NET "digit_7seg_main[5]" LOC = L13;
+NET "digit_7seg_main[6]" LOC = M12;
+
+
+NET "digit_sel_main[3]" LOC = K14;
+NET "digit_sel_main[2]" LOC = M13;
+NET "digit_sel_main[1]" LOC = J12;
+NET "digit_sel_main[0]" LOC = F12;
+
+# PlanAhead Generated physical constraints 
+
+NET "set" LOC = C11;
+NET "manual[0]" LOC = L3;
+NET "manual[1]" LOC = K3;
+NET "manual[2]" LOC = B4;
+NET "manual[3]" LOC = G3;
+NET "manual[4]" LOC = F3;
+NET "manual[5]" LOC = E2;
+NET "manual[6]" LOC = N3;
